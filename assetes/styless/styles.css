@@ -60,4 +60,23 @@ section {
     gap: 3rem;
 }
 
+section>header {
+    /* esta sección se extenderá 12 columnas. */
+    grid-column: span 12;
+}
+section>main{
+    grid-column: span 8;
+}
+
+section>aside{
+    grid-column: span 4;
+}
+
+section>footer{
+    grid-column: span 12;
+}
+
+body{
+    background-color: black;color: white;
+}
 /* Termina grid */
